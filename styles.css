@@ -1,0 +1,83 @@
+/* Style the Body */
+body {
+    background-color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Style the Title */
+header h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Style the Gallery */
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid pink;
+}
+
+/* Style the Art Cards */
+.photo-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Style Images */
+.photo-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Implement Flexbox */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Style the Art Cards Further */
+.photo-card {
+    flex: 1 0 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Create a Hover Effect */
+.photo-card:hover {
+    transform: scale(1.05);
+}
+
+/* Style the Art Titles */
+.photo-card h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/* Style the Art Descriptions */
+.description {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+/* Style the Art Dates */
+.date {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+footer{
+    text-align: center;
+}
